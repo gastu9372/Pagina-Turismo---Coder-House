@@ -30,7 +30,7 @@ p{
 	padding: 0.7rem;
 }
 
-.container{
+.contImgs{
 	display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -365,7 +365,7 @@ h3{
 }
 
 @media screen and (max-width: 1024px){
-	.container{
+	.contImgs{
 		display: grid;
 		grid-template-rows: 1fr 1fr;
 		grid-template-columns: 1fr;
@@ -406,7 +406,7 @@ h3{
 }
 
 @media screen and (max-width: 768px){
-	.container{
+	.contImgs{
 		display: grid;
 		grid-template-rows: 1fr 1fr;
 		grid-template-columns: 1fr;
@@ -447,7 +447,7 @@ h3{
 }
 
 @media screen and (max-width: 425px){
-	.container{
+	.contImgs{
 		display: grid;
 		grid-template-rows: 1fr 1fr;
 		grid-template-columns: 1fr;
