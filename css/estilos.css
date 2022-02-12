@@ -20,14 +20,16 @@ header{
 	
 }
 
-p{
+.p{
 	text-align: center;
 	margin-left: 3rem;
 	margin-right: 3rem;
-	border: solid #5885AF 3px;
+	font-size: large;
+	justify-content:  center;
 	border-radius: 25px;
 	margin-bottom: 3rem;
 	padding: 0.7rem;
+	margin-top: 5em;
 }
 
 .contImgs{
@@ -41,8 +43,7 @@ p{
 	height: 500px;
 	width: 800px;
 	margin-top: 25px;
-	margin-left: 4rem;
-	margin-bottom: 25px;
+	margin: auto;
 }
 
 .cont-trecking{
@@ -82,7 +83,7 @@ p{
 .navegacion ul{
 	list-style: none;
 	margin-bottom: -20px;
-	margin-left: 20px;
+	
 	margin-top: -20px;
     
 }
@@ -111,11 +112,14 @@ p{
 	background: #41729F;
 	width: 120%;
 	display: none; 
+	padding-left: 15px;
 }
 
 .submenu li a{
 	display: block;
-	padding: 15px;
+	margin-top: 15px;
+	margin-right: 40px;
+	padding-bottom: 15px;
 	color: #fff;
 	text-decoration: none;
 }
@@ -493,5 +497,13 @@ h3{
 		height: 34.8em;
 		margin-top: 3.5em;
 		margin-bottom: 3.5em;
+	}
+	.imgTexto{
+		display: block;
+		width: 55vw;
+		height: 25wh;
+		margin-bottom: 5em;
+		margin-left: 3em;
+		margin: auto;
 	}
 }
