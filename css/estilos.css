@@ -19,6 +19,9 @@ header{
 	background-color: #41729F;
 	
 }
+.navbar{
+	display: none;
+}
 
 .p{
 	text-align: center;
@@ -40,8 +43,8 @@ header{
 }
 
 .imgsIndex{
-	height: 500px;
-	width: 800px;
+	height: 65vh;
+	width: 80vw;
 	margin-top: 25px;
 	margin: auto;
 }
@@ -282,6 +285,7 @@ h2{
 	border: 2px solid #274472;
 	border-radius: 2px;
 	font-size: 1rem; 
+	padding: 10px;
 }
 .contacto-formulario .formulario .enviar input {
 	background: none;
@@ -364,7 +368,7 @@ h3{
 		width: 510px;
 		margin-top: 3.5em;
 		margin-bottom: 3.5em;
-		height: 34em;
+		height: 39em;
 	}
 }
 
@@ -405,7 +409,7 @@ h3{
 		width: 510px;
 		margin-top: 3.5em;
 		margin-bottom: 3.5em;
-		height: 34em;
+		height: 39em;
 	}
 }
 
@@ -446,7 +450,18 @@ h3{
 		width: 510px;
 		margin-top: 3.5em;
 		margin-bottom: 3.5em;
-		height: 34em;
+		height: 39em;
+	}
+	.navbar{
+		display: block;
+		width: 100%;
+
+	}
+	.contLogo{
+		display: none;
+	}
+	.navegacion{
+		display: none;
 	}
 }
 
@@ -494,7 +509,7 @@ h3{
 	.contacto-formulario{
 		margin: auto;
 		width: 300px;
-		height: 34.8em;
+		height: 40em;
 		margin-top: 3.5em;
 		margin-bottom: 3.5em;
 	}

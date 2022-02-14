@@ -12,39 +12,87 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header>
-        <div class="contLogo">
-            <a href="../index.html"><img src="../fotos/logo.png" alt="" class="logoHeader"></a>
-        </div>
-        <nav class="navegacion">
-            <ul class="menu">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="verano.html">Verano</a>
-                    <ul class="submenu">
-                        <li><a href="playas.html">Playas</a></li>
-                        <li><a href="trecking.html">Trecking</a></li>
-                    </ul>
-                </li>
-                <li><a href="invierno.html">Invierno</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+  <header>
+    <!--Navbar Normal-->
+    <div class="contLogo">
+        <a href="../index.html"><img src="../fotos/logo.png" alt="" class="logoHeader"></a>
+    </div>
+    <nav class="navegacion">
+        <ul class="menu">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="verano.html">Verano</a>
+                <ul class="submenu">
+                    <li><a href="playas.html">Playas</a></li>
+                    <li><a href="trecking.html">Trecking</a></li>
+                </ul>
+            </li>
+            <li><a href="invierno.html">Invierno</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <!--Navbar mobile-->
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #41729F;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">San Martin Turismo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="verano.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Verano
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #41729F; border: none; margin-top: -10px;">
+                  <li><a class="dropdown-item" href="playas.html">Playas</a></li>
+                  <li><a class="dropdown-item" href="trecking.html">Trecking</a></li>
+            
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Invierno</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
             </ul>
-        </nav>
-    </header>
+          </div>
+        </div>
+      </nav>
+</header>
+<!--Termina el header-->
     
     <!--PRIMER PLAYA-->
     <h2>Yuco - Lago Lacar</h2>
-    <div class="contImgs">
-        <img src="../fotos/yuco1.jpg" alt="" class="playa">
-        <img src="../fotos/yuco2.jpg" alt="" class="playa">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../fotos/yuco1.jpg" class="d-block playa img-fluid" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="../fotos/yuco2.jpg" class="d-block playa img-fluid" alt="">
+          </div>
     </div>
     <div>
-        <p> Se trata de una península de gran belleza, que esconde un par de bahías pequeñas de arena blanca, con rocas y aguas verdes que reflejan la vegetación circundante. Encontrará varios ejemplares de arrayán, ideales para la foto, y un área de recreación diurna cercana a la seccional del guardaparque. El lugar es muy frecuentado como balneario. Desde allí (del otro lado de la ruta) parte la senda que conduce al sendero Las Corinas, apto para toda la familia. </p>
+        <p class="p"> Se trata de una península de gran belleza, que esconde un par de bahías pequeñas de arena blanca, con rocas y aguas verdes que reflejan la vegetación circundante. Encontrará varios ejemplares de arrayán, ideales para la foto, y un área de recreación diurna cercana a la seccional del guardaparque. El lugar es muy frecuentado como balneario. Desde allí (del otro lado de la ruta) parte la senda que conduce al sendero Las Corinas, apto para toda la familia. </p>
    </div>
     <hr>
 
     <!--sEGUNDA PLAYA-->
     <h2>Playa Bonita - Lago Lolog</h2>
-    <img src="../fotos/bonita1.jpg" alt="" class="playa">
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../fotos/bonita1.jpg" class="d-block playa" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="../fotos/bonita2.jpg" class="d-block playa" alt="">
+          </div>
+    </div>
     <p class="p"> 
         Uno de los balnearios más atractivos de la región, con playas de fina arena y un entorno natural de incomparable belleza. De poca profundidad, permite el desarrollo de gran cantidad de actividades náuticas, siendo muy frecuentada por residentes. El balneario sorprende por su extensión y por ser un espléndido balcón natural desde el cual se aprecia todo el espejo de agua.
     </p>
@@ -52,7 +100,15 @@
 
     <!--TERCER PLAYA-->
     <h2>La Islita - Lago Lacar</h2>
-    <img src="../fotos/laIslita1.jfif" alt="" class="playa">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../fotos/laIslita1.jfif" class="d-block playa" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="../fotos/laIslita1.jfif" class="d-block playa" alt="">
+          </div>
+    </div>
     <p class="p">Pequeña y atractiva playa sobre el lago Lácar, en tierras de la comunidad mapuche y protegida por el Parque Nacional Lanín, de fácil acceso y gran belleza natural.</p>
     
    
