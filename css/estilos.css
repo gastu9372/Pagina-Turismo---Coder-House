@@ -306,7 +306,7 @@ h2{
 	transform: scale(1.1, 1.1);
 	transition: 0.3s; }
 
-/* FORMULARIO*/
+/* FIN FORMULARIO*/
 
 h3{
 	text-decoration: underline;
@@ -329,7 +329,7 @@ h3{
 	text-align: center;
 	width: 60vw;
 	height: 100%;
-
+	margin-bottom: 35px;
 }
 .contenedor:hover{
 	transform: scale(1.02);
@@ -339,13 +339,14 @@ h3{
 	display: block;
 	width: 55vw;
 	height: 25wh;
-	margin: 5em;
+	margin-left: 35%;
+	margin-bottom: 50px;
 }
 .textoImg{
 	border: none;
 	position: absolute;
 	top: 50%;
-    left: 50%;
+    left: 80%;
     transform: translate(-50%, -50%);
 	color: white;
 	font-weight: 600%;
