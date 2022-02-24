@@ -4,7 +4,7 @@ html {
 body {
   font-family: 'Times New Roman', Times, serif;
   line-height: 25px;
-  background-color: #F5F5F5; }
+  background-color: #f0e7e7; }
 
 * {
   margin: 0;
@@ -21,11 +21,10 @@ header {
 
 .p {
   text-align: center;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-size: large;
   justify-content: center;
-  border-radius: 25px;
   margin-bottom: 3rem;
   padding: 0.7rem;
   margin-top: 5em; }
@@ -34,12 +33,12 @@ header {
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr;
-  margin-top: 25px; }
+  margin-top: 40px; }
 
 .imgsIndex {
   height: 65vh;
-  width: 80vw;
-  margin-top: 25px;
+  width: 95vw;
+  margin-top: 40px;
   margin: auto; }
 
 .cont-trecking {
@@ -84,6 +83,11 @@ header {
 
 .menu li a:hover {
   color: #C3E0E5; }
+
+.clickAqui {
+  color: #41729F; }
+  .clickAqui :hover {
+    color: #5885AF; }
 
 /* Submenu*/
 .submenu {
@@ -153,11 +157,12 @@ footer {
 h2 {
   font-size: 3rem;
   text-align: center;
-  margin-top: 25px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
 
 .playa {
   height: 500px;
-  width: 800px;
+  width: 95%;
   margin-top: 25px;
   margin-bottom: 25px;
   display: block;
@@ -328,10 +333,9 @@ h3 {
     height: 39em; }
   .imgTexto {
     display: block;
-    width: 55rem;
+    width: 54rem;
     height: 36rem;
-    margin-bottom: 50px;
-    margin-left: 2em; } }
+    margin-bottom: 50px; } }
 
 @media screen and (max-width: 770px) {
   .p {
@@ -360,7 +364,7 @@ h3 {
     margin: 25px auto 25px auto; }
   .contacto-formulario {
     margin: auto;
-    width: 510px;
+    width: 480px;
     margin-top: 3.5em;
     margin-bottom: 3.5em;
     height: 39em; }
@@ -373,10 +377,9 @@ h3 {
     margin-left: 0.75rem; }
   .imgTexto {
     display: block;
-    width: 43rem;
+    width: 30rem;
     height: 36rem;
-    margin-bottom: 50px;
-    margin-left: 2em; } }
+    margin-bottom: 50px; } }
 
 @media screen and (max-width: 425px) {
   .p {
