@@ -34,9 +34,27 @@ html {
     justify-content: center;
     margin-bottom: 3rem;
     padding: 0.7rem;
-    margin-top: 5em;
+    margin-top: 1em;
+  }
+
+  .txtindex{
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: large;
+    justify-content: center;
+  }
+
+  .pindex{
+    @extend .txtindex;
+    margin-bottom: 2em;
+    margin-top: 2.5em;
+    
   }
   
+  .leermas{
+    display: none;
+  }
   .contImgs {
     display: grid;
     grid-template-rows: 1fr;
@@ -261,7 +279,7 @@ html {
       .form-mensaje {
         display: flex;
         flex-direction: column;
-        margin-bottom: 30px;
+        margin-bottom: 15px;
         width: 90%;
         font-weight: 600;
         width: auto;
@@ -358,6 +376,7 @@ html {
     font-weight: 600%;
     font-size: 6rem;
   }
+ 
   
   /* RESPONSIVE - VISTA MOBILE */
   @media screen and (max-width: 1440px) {
@@ -445,6 +464,11 @@ html {
       font-size: 1.75em;
       line-height: 1.3em;
     }
+    .pindex {
+      margin-top: 1em;
+      font-size: 1.75em;
+      line-height: 1.3em;
+    }
   
     .contImgs {
       display: grid;
@@ -501,7 +525,7 @@ html {
   
     .imgTexto {
       display: block;
-      width: 30rem;
+      width: 43rem;
       height: 36rem;
       margin-bottom: 50px;
       
@@ -514,11 +538,21 @@ html {
       font-size: large;
       justify-content: center;
       border-radius: 25px;
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
       padding: 0.7rem;
       margin-top: 1em;
     }
-  
+    .texto{
+      display: none;
+    }
+    .leermas{
+      display: block;
+    }
+    summary{
+      font-size: large;
+      margin-left: 2rem;
+      margin-top: 15px;
+    }
     .contImgs {
       display: grid;
       grid-template-rows: 1fr 1fr;
@@ -578,4 +612,5 @@ html {
     .imgTexto, .textoImg, .pepelin {
       display: none;
     }
+   
   }
