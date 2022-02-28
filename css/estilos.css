@@ -233,7 +233,7 @@ h2 {
         width: 90%;
         height: auto;
         border: 2px solid #274472;
-        border-radius: 2px;
+        border-radius: 5px;
         font-size: 1rem;
         padding: 10px; }
     .contacto-formulario .formulario .enviar input {
@@ -357,6 +357,10 @@ h3 {
     font-size: 1.75em;
     line-height: 1.3em; }
   .pindex {
+    margin-top: 1em;
+    font-size: 1.75em;
+    line-height: 1.3em; }
+  .txtindex, .pindex {
     margin-top: 1em;
     font-size: 1.75em;
     line-height: 1.3em; }

@@ -19,7 +19,7 @@ html {
   
   header {
     display: flex;
-    background-color: #41729F;
+    background-color: map-get($map: $estilos, $key: color );
   }
   
   .navbar {
@@ -27,11 +27,11 @@ html {
   }
   
   .p {
-    text-align: center;
+    text-align: map-get($map: $estilos, $key: center );
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: large;
-    justify-content: center;
+    justify-content: map-get($map: $estilos, $key: center );
     margin-bottom: 3rem;
     padding: 0.7rem;
     margin-top: 1em;
@@ -127,7 +127,7 @@ html {
   }
   
   .clickAqui{
-    color: #41729F;
+    color: map-get($map: $estilos, $key: color );
       :hover{
         color: #5885AF;
       }
@@ -136,7 +136,7 @@ html {
   
   .submenu {
     position: absolute;
-    background: #41729F;
+    background: map-get($map: $estilos, $key: color );
     width: 120%;
     display: none;
     padding-left: 15px;
@@ -242,7 +242,7 @@ html {
     flex-direction: column;
     width: 37.5em;
     height: 40em;
-    background: #41729F;
+    background: map-get($map: $estilos, $key: color );
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(3px);
     border-radius: 10px;
@@ -297,7 +297,7 @@ html {
           width: 90%;
           height: auto;
           border: 2px solid #274472;
-          border-radius: 2px;
+          border-radius: 5px;
           font-size: 1rem;
           padding: 10px;
         }
@@ -465,6 +465,11 @@ html {
       line-height: 1.3em;
     }
     .pindex {
+      margin-top: 1em;
+      font-size: 1.75em;
+      line-height: 1.3em;
+    }
+    .txtindex {
       margin-top: 1em;
       font-size: 1.75em;
       line-height: 1.3em;
