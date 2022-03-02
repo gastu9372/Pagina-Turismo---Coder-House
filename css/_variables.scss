@@ -5,3 +5,16 @@ $estilos: (
     color: #41729F,
     center: center,
 );
+
+@mixin txtmobile {
+    margin-top: 1em;
+    font-size: 1.75em;
+    line-height: 1.3em;
+};
+
+@mixin Imgtxt {
+    display: block;
+    width: 95vw;
+    height: 60vh;
+    margin-bottom: 1em;
+}

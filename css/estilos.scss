@@ -360,10 +360,7 @@ html {
   }
   
   .imgTexto {
-    display: block;
-    width: 112rem;
-    height: 35rem;
-    margin-bottom: 50px;
+    @include Imgtxt;
   }
   
   .textoImg {
@@ -381,13 +378,11 @@ html {
   /* RESPONSIVE - VISTA MOBILE */
   @media screen and (max-width: 1440px) {
     .p {
-      margin-top: 1em;
-      font-size: 1.75em;
-      line-height: 1.3em;
+      @include txtmobile;
     }
   
     .imgsIndex, .playa {
-      width: 600px;
+      width: 95vw;
       height: 500px;
     }
   
@@ -400,11 +395,7 @@ html {
     }
   
     .imgTexto {
-      display: block;
-      width: 80rem;
-      height: 36rem;
-      margin-bottom: 50px;
-      margin-left: 2em;
+      @include Imgtxt;
     }
   }
   
@@ -450,19 +441,13 @@ html {
     }
   
     .imgTexto {
-      display: block;
-      width: 54rem;
-      height: 36rem;
-      margin-bottom: 50px;
-  
+      @include Imgtxt;
     }
   }
   
   @media screen and (max-width: 770px) {
     .p {
-      margin-top: 1em;
-      font-size: 1.75em;
-      line-height: 1.3em;
+      @include txtmobile;
     }
     .pindex {
       margin-top: 1em;
@@ -529,11 +514,9 @@ html {
     }
   
     .imgTexto {
-      display: block;
-      width: 43rem;
-      height: 36rem;
-      margin-bottom: 50px;
-      
+      @include Imgtxt;
+      margin-bottom: 1em;
+      margin-left: 0.5rem;
     }
   }
   
