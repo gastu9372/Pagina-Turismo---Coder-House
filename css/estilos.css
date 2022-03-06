@@ -75,7 +75,8 @@ header {
 .logoHeader {
   height: 3rem;
   width: 3rem;
-  align-self: center; }
+  align-self: center;
+  filter: invert(100%); }
 
 .navegacion {
   width: 100%;
@@ -130,6 +131,13 @@ footer {
   padding-top: 30px;
   margin-top: auto; }
 
+a {
+  color: white;
+  text-decoration: none; }
+
+.contfooter a:hover {
+  color: #C3E0E5; }
+
 .redes {
   justify-content: center;
   display: flex;
@@ -147,25 +155,30 @@ footer {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 1rem 0 3rem 0; }
+  justify-content: center; }
   .iconos li {
     margin: 0 25px; }
   .iconos a {
     text-decoration: none;
-    color: black; }
+    color: white; }
     .iconos a i {
-      font-size: 3rem; }
+      font-size: 2rem; }
     .iconos a:hover i {
       color: #C3E0E5; }
 
+.borde {
+  border-bottom: 1px solid white;
+  width: 95%;
+  margin-left: 2.5%; }
+
 .txtFooter {
-  justify-content: center;
-  border: none;
-  max-width: 500px;
-  margin: 10px auto;
   line-height: 28px;
-  font-size: 14px; }
+  font-size: 1.15rem;
+  color: white; }
+
+.enclaces {
+  color: white;
+  text-decoration: none; }
 
 /* FIN DELFOOTER*/
 h2 {

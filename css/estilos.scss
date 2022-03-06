@@ -94,6 +94,7 @@ html {
     height: 3rem;
     width: 3rem;
     align-self: center;
+    filter: invert(100%);
   }
   
   .navegacion {
@@ -163,8 +164,15 @@ html {
     height: auto;
     width: 100%;
     padding-top: 30px;
-    margin-top: auto;
+    margin-top: auto;   
   }
+    a{
+    color: white;
+    text-decoration: none;
+    }
+      .contfooter a:hover {
+        color: #C3E0E5;
+      }
   
   .redes {
     justify-content: center;
@@ -187,7 +195,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 1rem 0 3rem 0;
   
     li {
       margin: 0 25px;
@@ -195,10 +202,10 @@ html {
   
     a {
       text-decoration: none;
-      color: black;
+      color: white;
   
       i {
-        font-size: 3rem;
+        font-size: 2rem;
       }
   
       &:hover i {
@@ -206,16 +213,20 @@ html {
       }
     }
   }
-  
+  .borde{
+    border-bottom: 1px solid white ;
+    width: 95%;
+    margin-left: 2.5%;
+  }  
   .txtFooter {
-    justify-content: center;
-    border: none;
-    max-width: 500px;
-    margin: 10px auto;
     line-height: 28px;
-    font-size: 14px;
+    font-size: 1.15rem;
+    color: white;
   }
-  
+  .enclaces{
+    color: white;
+    text-decoration: none;
+  }
   /* FIN DELFOOTER*/
   
   h2 {
@@ -596,9 +607,8 @@ html {
       margin-top: 3.5em;
       margin-bottom: 3.5em;
     }
-  
+
     .imgTexto, .textoImg, .pepelin {
       display: none;
-    }
-   
+    } 
   }
