@@ -27,22 +27,26 @@ html {
   }
   
   .p {
-    text-align: map-get($map: $estilos, $key: center );
-    margin-left: 1rem;
-    margin-right: 1rem;
+    text-align: map-get($map: $estilos, $key: justicado );
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     font-size: large;
-    justify-content: map-get($map: $estilos, $key: center );
     margin-bottom: 3rem;
-    padding: 0.7rem;
+    padding: 0 0 2em;
     margin-top: 1em;
+  }
+  .pInv{
+    @extend .p;
+    margin-bottom: 2%;
   }
 
   .txtindex{
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    text-align: justify;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     font-size: large;
     justify-content: center;
+    padding-bottom: 1rem;
   }
 
   .pindex{
@@ -74,14 +78,38 @@ html {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     margin-top: 25px;
+    margin-left: 2.5%;
   }
-  
-  .imgTreck {
+  .txt-treck1{
+    text-align: map-get($map: $estilos, $key: justicado );
+    font-size: large;
+    padding: 0 0 2em;
+    margin-top: 1.5em;
+    margin-right: 2.5%;
+    margin-left: 1%;
+  }
+  .txt-treck2{
+    @extend .txt-treck1;
+    margin-right: 3.5%;
+    margin-left: 4.5%;
+  }
+  .imgTreck1 {
     width: 800px;
     height: 500px;
-    margin: 25px auto 25px 75px;
+    padding: 0 0 2em;
+    margin-top: 1.5rem;
+    margin-left: 6.5%;
+  }
+  .imgTreck2{
+    @extend .imgTreck1;
+
   }
   
+  .bordeplaya{
+    border-bottom: 2px solid #274472 ;
+    width: 95%;
+    margin-left: 2.5%;
+  }
   /* Menu desplegable*/
   
   .contLogo {
@@ -155,7 +183,10 @@ html {
   .menu li:hover .submenu {
     display: block;
   }
-  
+  .dropdown-item{
+    color: rgba(255,255,255,.55);
+  }
+
   /* Fin del menu desplegable*/
   /* FOOTER*/
   
@@ -179,7 +210,7 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
   
     h3 {
       font-size: 1.8rem;
@@ -218,6 +249,10 @@ html {
     width: 95%;
     margin-left: 2.5%;
   }  
+  .bordetreck{
+    @extend .borde;
+    border-bottom: 5px solid #274472;
+  }
   .txtFooter {
     line-height: 28px;
     font-size: 1.15rem;
@@ -340,10 +375,9 @@ html {
   /* FIN FORMULARIO*/
   
   h3 {
-    text-decoration: underline;
     text-align: center;
     font-weight: 500;
-    font-size: 42px;
+    font-size: 3rem;
     margin-top: 25px;
   }
   
