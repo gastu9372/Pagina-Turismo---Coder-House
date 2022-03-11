@@ -28,9 +28,9 @@ html {
   
   .p {
     text-align: map-get($map: $estilos, $key: justicado );
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    font-size: large;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    font-size: 1.5rem;
     margin-bottom: 3rem;
     padding: 0 0 2em;
     margin-top: 1em;
@@ -42,9 +42,9 @@ html {
 
   .txtindex{
     text-align: justify;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    font-size: large;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    font-size: 1.5rem;
     justify-content: center;
     padding-bottom: 1rem;
   }
@@ -82,7 +82,7 @@ html {
   }
   .txt-treck1{
     text-align: map-get($map: $estilos, $key: justicado );
-    font-size: large;
+    font-size: 1.5rem;
     padding: 0 0 2em;
     margin-top: 1.5em;
     margin-right: 2.5%;
@@ -94,8 +94,8 @@ html {
     margin-left: 4.5%;
   }
   .imgTreck1 {
-    width: 800px;
-    height: 500px;
+    width: 88%;
+    height: 95%;
     padding: 0 0 2em;
     margin-top: 1.5rem;
     margin-left: 6.5%;
@@ -106,9 +106,10 @@ html {
   }
   
   .bordeplaya{
-    border-bottom: 2px solid #274472 ;
+    border-bottom: 5px solid #274472;
     width: 95%;
     margin-left: 2.5%;
+    margin-right: 2.5%;
   }
   /* Menu desplegable*/
   
@@ -272,7 +273,7 @@ html {
   }
   
   .playa {
-    height: 500px;
+    height: 70vh;
     width: 95%;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -471,12 +472,6 @@ html {
       flex-direction: column;
     }
   
-    .imgTreck {
-      width: 700px;
-      height: 600px;
-      margin: 25px auto 25px auto;
-    }
-  
     .contacto-formulario {
       margin: auto;
       width: 510px;
@@ -487,6 +482,13 @@ html {
   
     .imgTexto {
       @include Imgtxt;
+    }
+    .imgTreck{
+      margin-left: 2.5%;
+      margin-right: 2.5%;
+    }
+    .contenedor{
+      margin-left: 0.75%;
     }
   }
   
@@ -532,8 +534,8 @@ html {
     }
   
     .imgTreck {
-      width: 700px;
-      height: 600px;
+      width: 88%;
+      height: 95%;
       margin: 25px auto 25px auto;
     }
   
@@ -554,10 +556,6 @@ html {
       display: none;
     }
   
-    .contenedor {
-      margin-left: 0.75rem;
-    }
-  
     .imgTexto {
       @include Imgtxt;
       margin-bottom: 1em;
@@ -565,13 +563,12 @@ html {
     }
   }
   
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 480px) {
     .p {
-      text-align: center;
-      font-size: large;
+      text-align: justify;
+      font-size: 1rem;
       justify-content: center;
       margin-bottom: 1rem;
-      padding: 0.7rem;
       margin-top: 1em;
     }
     .texto{
@@ -614,8 +611,8 @@ html {
     }
   
     .imgTreck {
-      width: 300px;
-      height: 200px;
+      width: 88%;
+      height: 95%;
       margin: 25px auto 25px auto;
     }
   
@@ -644,4 +641,7 @@ html {
     .imgTexto, .textoImg, .pepelin {
       display: none;
     } 
+    .txt-treck2{
+      display: none;
+    }
   }
