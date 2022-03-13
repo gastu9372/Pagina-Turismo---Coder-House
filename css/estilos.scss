@@ -25,7 +25,15 @@ html {
   .navbar {
     display: none;
   }
-  
+  .carousel-control-prev-icon {
+    background-image: url("http://cdn.onlinewebfonts.com/svg/img_68882.png");
+    filter: invert(85%);
+    transform: rotate(180deg);
+  }
+  .carousel-control-next-icon {
+    background-image: url("http://cdn.onlinewebfonts.com/svg/img_68882.png");
+    filter: invert(85%); 
+  }
   .p {
     text-align: map-get($map: $estilos, $key: justicado );
     margin-left: 10.5%;
